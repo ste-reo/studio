@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet');
+:root{
+    --bg: #1f242d;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+}
+html{
+    font-size: 62.5;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+  }
+  .top{
+    background-image: url("https://templatekit.jegtheme.com/nextrecord/wp-content/uploads/sites/75/2021/04/sound-producers-sitting-at-recording-studio-and-discussing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height:100vh ;
+    padding: 2rem 9% 2rem;
+  }
+  span{
+    color: orangered;
+  }
+  .headr{
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 100;
+  }
+.nav a{
+    font-size: 1rem;
+    margin-left: 4rem;
+    color: white;
+    transition: 1s;
+}
+
+
+.headr h3{
+    font-size: 2rem;
+}
+.call {
+    display: inline-block;
+    padding: 0.3rem;
+    background: orange;
+    box-shadow: 0 0 .5rem orangered;
+    font-size: 1rem;
+    color:  #323946;;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: 5s ease;
+}
+.call a{
+    color: black;
+}
+
+.nav a:hover, 
+.nav a.act{
+    color: orangered;
+}
+.bodyo{
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bodyo h2{
+    font-size: 3rem;
+}
+.book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.book a{
+    color: black;
+    width: 70PX;
+    background: orange;
+    box-shadow: 0 0 .5rem orangered;
+    text-align: center;
+
+}
+.midi{
+    min-height:100vh ;
+
+  }
+.stuff{
+    display: flex;
+    justify-content: center;
+    background-color:white ;
+    margin-top: -3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    transition-duration: 0.3s, 0.3s, 0.3s, 0.3s;
+    transition-timing-function: ease, ease, ease, ease;
+    transition-delay: 0s, 0s, 0s, 0s;
+    transition-property: background, border, border-radius, box-shadow;
+    
+
+
+}
+.txtt {
+        text-align: center;
+        color: black;
+        
+}
+
+.txtt p{
+    color: gray;
+    margin: 3rem;
+}
+    
+.pix img{
+    filter: grayscale(100%);
+    height: 700px;
+    border-radius: 5px 0px 0px 5px;
+}
+.iconz {
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 10% 10% 10%;
+    text-align: center;
+}
+.iconz i{
+    color: orange;
+    font-size: 3rem;
+}
+.iconz h4{
+    color: black;
+    font-size: 1.5rem;
+}
+.iconz p{
+    color: black;
+    font-size: 0.8rem;
+}
